@@ -1,5 +1,5 @@
 <?php
-// Conectar ao banco de dados
+
 $servername = "localhost";
 $username = "root";
 $password = "gab123";
@@ -11,11 +11,11 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Verifica se o ID do usuário foi passado
+
 if (isset($_GET['id'])) {
     $user_id = $_GET['id'];
 
-    // Busca os dados do usuário no banco de dados
+ 
     $stmt = $conn->prepare("SELECT nome, cpf, data_nascimento, avatar FROM users WHERE id = ?");
     $stmt->bind_param("i", $user_id);
     $stmt->execute();
