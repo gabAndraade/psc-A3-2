@@ -4,13 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - SimpleBank</title>
-    <link rel="stylesheet" href="src/css/cadastro.css"> <!-- Seu arquivo de estilos -->
+    <link rel="stylesheet" href="src/css/cadastro.css">
 </head>
 <body>
-    <header class="header">
-        <!-- Aqui vai o seu cabeçalho (header) -->
-    </header>
-
     <main>
         <section class="cadastro-section">
             <div class="container">
@@ -41,11 +37,6 @@
             </div>
         </section>
     </main>
-
-    <footer>
-        <!-- Aqui vai o seu rodapé (footer) -->
-    </footer>
-
-    <script src="src/javascript/script.js"></script> <!-- Seu arquivo de scripts -->
+    <script src="src/javascript/script.js"></script>
 </body>
 </html>
