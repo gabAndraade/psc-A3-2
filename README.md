@@ -15,7 +15,6 @@ Este é um projeto acadêmico de um banco digital simples. O objetivo deste proj
 - Login de usuários
 - Verificação de saldo
 - Depósito e saque de valores
-- Histórico de transações
 
 ## Tecnologias Utilizadas
 
