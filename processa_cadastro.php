@@ -1,5 +1,5 @@
 <?php
-// Conectar ao banco de dados
+
 $servername = "localhost";
 $username = "root";
 $password = "gab123";
@@ -24,7 +24,6 @@ $stmt = $conn->prepare("INSERT INTO users (nome, cpf, data_nascimento, senha, av
 $stmt->bind_param("sssss", $nome, $cpf, $dataNascimento, $senha, $avatar);
 
 if ($stmt->execute()) {
-    // Redireciona para a página inicial com os dados do usuário
     header("Location: inicio.php?id=" . $stmt->insert_id);
     exit();
 } else {
